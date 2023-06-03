@@ -1,0 +1,40 @@
+.row {
+    text-align: center;
+    
+    
+}
+.small-container{
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.testimonial .row-1{
+    flex-direction: column;
+}
+
+.container-z .row{
+    margin-top: 180px;
+}
+/*Footer*/
+.footer .row{
+    text-align: start;
+}
+.column{
+    flex-direction: column; 
+}
+.footer-col-1 , .footer-col-2 , .footer-col-3 , .footer-col-4{
+    padding: 15px 30px;
+}
+.copyright{
+    text-align: center;
+    
+}
+
+/*----------------------PRODUCT.HTML----------------------------*/
+.single-product .col-2{
+    margin-top: 50px;
+}
+
+
+.con{
+    flex-direction: row;
+}

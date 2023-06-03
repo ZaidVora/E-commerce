@@ -1,0 +1,39 @@
+nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul li a {
+    color: #fff;
+}
+.row {
+    text-align: center;
+}
+.small-container {
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.testimonial .row-1 {
+    flex-direction: column;
+}
+.container-z .row {
+    margin-top: 180px;
+}
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+/*----------------------PRODUCT.HTML----------------------------*/
+.single-product .col-2 {
+    flex-direction: column;
+}
